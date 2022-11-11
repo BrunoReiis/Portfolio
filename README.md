@@ -4,7 +4,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Will instal all modules to run the website.
+Will install all modules to run the website.
 
 ### `npm start`
 
