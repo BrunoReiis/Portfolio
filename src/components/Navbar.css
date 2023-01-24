@@ -5,7 +5,6 @@
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     list-style: none;
-    background: #10101a;
 }
 
 .nav{
@@ -13,7 +12,7 @@
     width: 100%;
     top: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -22,7 +21,7 @@
 }
 
 .title{
-    color: whitesmoke;
+    color: black;
     font-size: 1.8rem;
     font-weight: 600;
     font-weight: bold;
@@ -37,7 +36,7 @@ span{
 }
 
 .items a{
-    color: whitesmoke;
+    color: black;
     font-size: 1rem;
     padding: 10px 20px;
     font-weight: 500;
@@ -48,4 +47,29 @@ span{
     color: #8e24f8;
 }
 
+.iconMenu{
+    color: #8e24f8;
+    display: none;
+}
 
+@media only screen and (max-width: 900px){
+   
+    .items a{
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000;
+    }
+
+    .iconMenu{
+        position: absolute;
+        display: flex;
+        z-index: 10000;
+        cursor: pointer;
+    }
+
+}
