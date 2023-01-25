@@ -10,6 +10,11 @@ export const Home = () => {
             <button>About Me</button>
             <button>View CV</button>
             </div>
+            <div className="gifAtomo">
+                <div className="circulo Um"></div>
+                <div className="circulo Dois"></div>
+                <div className="circulo Tres"></div>
+            </div>
         </div>
     );
 }
