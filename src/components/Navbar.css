@@ -52,7 +52,7 @@ span{
     display: none;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 450px){
    
     .items a{
         display: none;
@@ -68,8 +68,8 @@ span{
     .iconMenu{
         position: absolute;
         display: flex;
-        z-index: 10000;
         cursor: pointer;
+        margin-left: 70%;
     }
 
 }

@@ -113,3 +113,39 @@
         transform: translateY(0);
     }
 }
+
+@media (max-width: 330px) {
+    .gifAtomo {
+        width: 100px;
+        height: 100px;
+        margin-left: -100%;
+    }
+
+    .main {
+        margin-top: 25%;
+    }
+}
+
+@media (max-width: 450px) {
+    .gifAtomo {
+        width: 250px;
+        height: 250px;
+        margin-left: 8%;
+        margin-top: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .gifAtomo {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .main {
+        margin-top: 30%;
+    }
+
+    .main h1 {
+        font-size: 30px;
+    }
+}
