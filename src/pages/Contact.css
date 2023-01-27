@@ -75,3 +75,10 @@ form {
     transform: scale(1.1);
     background: #8e24f8;
 }
+
+@media (max-width: 900px){
+    form {
+        width: 90%;
+        margin-left: 3%;
+    }
+}
