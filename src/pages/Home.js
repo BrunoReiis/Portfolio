@@ -3,7 +3,7 @@ import './Home.css'
 export const Home = () => {
     return (
 
-        <div className='main'>
+        <section id='main' className='main'>
             <h1>Hi, i'm Bruno Reis!</h1>
             <h2>A Júnior Fullstack Developer</h2>
             <div className='buttons'>
@@ -15,6 +15,6 @@ export const Home = () => {
                 <div className="circulo Dois"></div>
                 <div className="circulo Tres"></div>
             </div>
-        </div>
+        </section>
     );
 }
