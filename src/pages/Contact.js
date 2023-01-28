@@ -1,4 +1,6 @@
 import './Contact.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 export const Contact = () => {
     const enviarButton = () => {
@@ -10,7 +12,16 @@ export const Contact = () => {
     }
     return (
 
-    <section id="contato">
+    <section className='contatoTodo'>
+      <div className='contatoCima'>
+        <h1>Contact Me</h1>
+        <div className='icons'>
+          <i><FontAwesomeIcon icon={faGithub}/></i>
+          <i><FontAwesomeIcon icon={faLinkedin}/></i>
+          <i><FontAwesomeIcon icon={faInstagram}/></i>
+        </div>
+      </div>
+    <section id="mainContato">
       <form id="form">
         <div class="contatoForm">
           <div class="itemContato">
@@ -45,6 +56,7 @@ export const Contact = () => {
           <button onClick={e => enviarButton(e)} class="enviarButton">Enviar</button>
         </div>
       </form>
+    </section>
     </section>
     );
 }

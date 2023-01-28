@@ -1,4 +1,4 @@
-#contato {
+#mainContato {
     height: auto;
     margin-bottom: 11%;
 }
@@ -76,9 +76,33 @@ form {
     background: #8e24f8;
 }
 
+.contatoCima{
+    margin-top: 10%;
+    margin-left: 29%;
+    margin-bottom: -3%;
+}
+
+.contatoCima h1{
+    color: #8e24f8;
+}
+
+.icons{
+    margin-left: -12px;
+}
+
+.icons i{
+    margin-left:12px;
+}
+
 @media (max-width: 900px){
     form {
         width: 90%;
         margin-left: 3%;
+    }
+
+    .contatoCima {
+        margin-top: 35%;
+        margin-left: 20%;
+        margin-bottom: -15%;
     }
 }
