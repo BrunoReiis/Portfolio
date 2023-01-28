@@ -4,21 +4,22 @@ import { faGithub, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-
 
 export const Contact = () => {
     const enviarButton = () => {
-        alert("Formulario apenas de enfeite, para entrar em contato use as redes sociais!");
+        alert("Formulario apenas de demonstração, para entrar em contato use as redes sociais!");
 
         document.getElementById("nome").value = "";
         document.getElementById("emailContato").value = "";
         document.getElementById("mensagem").value = "";
     }
+
     return (
 
     <section className='contatoTodo'>
       <div className='contatoCima'>
         <h1>Contact Me</h1>
         <div className='icons'>
-          <i><FontAwesomeIcon icon={faGithub}/></i>
-          <i><FontAwesomeIcon icon={faLinkedin}/></i>
-          <i><FontAwesomeIcon icon={faInstagram}/></i>
+          <a href="https://github.com/BrunoReiis" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+          <a href="https://www.linkedin.com/in/brunoreiis/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
+          <a href="https://www.instagram.com/bruno.dreis/" target='_blank' rel="noreferrer"><FontAwesomeIcon icon={faInstagram}/></a>
         </div>
       </div>
     <section id="mainContato">
