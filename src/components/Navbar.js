@@ -18,7 +18,7 @@ export const Navbar = () => {
                 <CustomLink to="/contact">Contact</CustomLink>
             </ul>
             <div id="btn-mobile" className="iconMenu">
-                <button><FontAwesomeIcon icon={faBars}/></button>
+                <i><FontAwesomeIcon icon={faBars}/></i>
             </div> 
         </nav>
 
