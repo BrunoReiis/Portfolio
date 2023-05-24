@@ -1,4 +1,5 @@
 import './Home.css'
+import '../components/Navbar.css'
 
 export const Home = () => {
     return (
@@ -9,11 +10,6 @@ export const Home = () => {
             <div className='buttons'>
             <button>About Me</button>
             <button>View CV</button>
-            </div>
-            <div className="gifAtomo">
-                <div className="circulo Um"></div>
-                <div className="circulo Dois"></div>
-                <div className="circulo Tres"></div>
             </div>
         </section>
     );
