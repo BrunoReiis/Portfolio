@@ -87,6 +87,7 @@ span{
     }
 
     ul{
+        background: url('/public/fundo.png');
         position: fixed;
         width: 100%;
         height: 100vh;
