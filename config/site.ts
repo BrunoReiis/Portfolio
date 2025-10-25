@@ -10,15 +10,15 @@ export const siteConfig = {
     },
     {
       label: "Sobre",
-      href: "/docs",
+      href: "#sobre",
     },
     {
       label: "Habilidades",
-      href: "/pricing",
+      href: "#habilidades",
     },
     {
       label: "Projetos",
-      href: "/blog",
+      href: "#projetos",
     },
   ],
   navMenuItems: [
