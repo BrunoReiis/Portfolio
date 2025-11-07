@@ -1,49 +1,48 @@
-export type SiteConfig = typeof siteConfig;
+// siteConfig.ts
 
 export const siteConfig = {
-  name: "Next.js + HeroUI",
+  name: "Portfolio BrunoReiis",
   description: "Make beautiful websites regardless of your design experience.",
   navItems: [
     {
-      label: "Inicio",
+      label: "Início",
       href: "/",
     },
     {
       label: "Sobre",
-      href: "#sobre",
+      href: "#about",
     },
     {
       label: "Habilidades",
-      href: "#habilidades",
+      href: "#skills",
     },
     {
       label: "Projetos",
-      href: "#projetos",
+      href: "#projects",
     },
   ],
   navMenuItems: [
-        {
-      label: "Inicio",
+    {
+      label: "Início",
       href: "/",
     },
     {
       label: "Sobre",
-      href: "/docs",
+      href: "#about",
     },
     {
       label: "Habilidades",
-      href: "/pricing",
+      href: "#skills",
     },
     {
       label: "Projetos",
-      href: "/blog",
+      href: "#projects",
     },
   ],
   links: {
-    github: "https://github.com/heroui-inc/heroui",
-    twitter: "https://twitter.com/hero_ui",
-    docs: "https://heroui.com",
-    discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev",
+    github: "https://github.com/BrunoReiis",
+    linkedin: "https://www.linkedin.com/in/brunoreiis/",
+    portfolio: "https://brunoreiis.dev", // se quiser mudar, coloque seu site real
   },
 };
+
