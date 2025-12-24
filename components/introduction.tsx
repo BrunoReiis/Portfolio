@@ -29,14 +29,14 @@ export const Introduction = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="px-5 py-2 rounded-lg bg-[#6D28D9] hover:bg-[#5b21b6] transition"
+            className="px-5 py-2 rounded-lg bg-[#6D28D9] hover:bg-[#5b21b6] text-white transition"
           >
             Ver Projetos
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
-            className="px-5 py-2 rounded-lg border border-[#6D28D9] hover:bg-[#6D28D9]/20 transition"
+            className="px-5 py-2 rounded-lg border border-[#6D28D9] hover:bg-[#6D28D9]/20 text-[#6D28D9] transition"
           >
             Entrar em Contato
           </motion.button>
